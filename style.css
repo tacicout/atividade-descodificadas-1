@@ -1,0 +1,38 @@
+body {
+    font-size: 0;
+}
+
+div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin:0;
+    padding: 0;
+}
+
+.vermelha {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarela {
+    background-color: yellow;
+}
+
+.canto {
+    background-color: red;
+    border: 2px solid black;
+}
+
+.canto:hover {
+    background-color: pink;
+    transform: scale(1.1);
+}
